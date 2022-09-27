@@ -41,7 +41,7 @@ def guess (x):
 print("\nEnjoy this guessing game where either you will be guessing the computer's number,"+\
       " or the computer will be guessing your number.")
 game = str(input("Will you be guessing the number? If yes, enter 'yes'. If no, enter 'no':  "))
-if game == 'yes' or game == 'Yes':
+if game == 'yes' or game == 'Yes' or game == 'YES':
     guess(100)
 else:
     print("\nThink of a number from 1-100...")
